@@ -1,0 +1,15 @@
+.banner {
+  width: 1200px;
+  height: 485px;
+  background-image: url('images/index-background.jpg');
+}
+.subscribe-block {
+  width: 1200px;
+  height: 411px;
+  background-image: url('images/background.jpg');
+}
+.catalog {
+  width: 1200px;
+  height: 408px;
+  background-image: url('images/catalog-background\ 1.jpg');
+}
