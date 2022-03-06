@@ -7,34 +7,35 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="body">
   <header class="main-header">
-    <a>
-      <img src="" alt="City of Sedona">
+    <a class="logo-link">
+      <!-- svg icon class="header-logo" alt="City of Sedona" -->
     </a>
-    <nav>
-      <ul>
-        <li>
-          <a>Главная</a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="main-page-link">Главная</a>
         </li>
-        <li>
-          <a href="#">О Седоне</a>
+        <li class="navigation-item">
+          <a class="main-text" href="#">О Седоне</a>
         </li>
-        <li>
+        <li class="navigation-item">
           <a href="catalog.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
 
-    <div>
-      <button type="button">Найти</button>
-      <button type="button">Избранное</button>
-      <button type="button">Хочу сюда!</button>
+    <div class="actions">
+      <button class="actions-button" type="button">Найти</button>
+      <button class="actions-button" type="button">Избранное</button>
+      <button class="actions-button" type="button">Хочу сюда!</button>
     </div>
   </header>
-  <main>
+  <main class="main-content">
     <div class="banner">
-      <svg width="458" height="352" viewBox="0 0 458 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="banner-content-image" width="458" height="352" viewBox="0 0 458 352" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
         <path
           d="M152.3 56.1L149.5 61H146.8L145.9 62.4H148.7L142.6 72.8C141.3 75 142.2 77 144.7 77C146.5 77 148.4 75.7 150.3 73.9C150.3 77.7 155.6 78.4 158.9 74.4H159.6C161.4 74.4 164.2 73.3 165.8 71.5C165.6 71.1 165.1 70.6 164.7 70.5L164.5 70.7C163.1 72.2 161.5 72.9 159.9 72.9L162.7 68.1C164.5 65 162.8 62 160 62C157.7 62 155.9 62.9 154.1 65.9L152.6 68.5L151.4 70.6L151.2 70.8C149 73.3 146.9 75.3 145.6 75.3C144.9 75.3 144.6 74.8 145.3 73.7L151.8 62.5H154.3L155 61H152.5L155.3 56.1H152.3ZM159.8 63.9C160.8 64 161.2 65.2 160.2 66.9L158 70.6H157.9C156.9 70.6 156.1 71.4 156.1 72.4C156.1 72.8 156.2 73.1 156.4 73.4V73.5C155 75.9 151.5 75.5 153.3 72.4L155.6 68.5L157.1 66.1C158 64.5 159.1 63.9 159.8 63.9ZM181.8 56.1L179 61H176.3L175.4 62.4H178.2L172 72.8C170.7 75 171.6 77 174.1 77C175.3 77 176.6 76.4 178 75.4L177.2 76.7H180.2L184.8 68.8C189.4 63 191.5 63.8 190.2 66L186.3 72.7C185 74.9 185.9 76.9 188.4 76.9C190.2 76.9 192.2 75.5 194.1 73.7C194.2 75.6 195.8 76.9 198.2 76.9C201.6 76.9 205 74.3 207.5 71.4C207.3 71 206.8 70.5 206.4 70.4L206.2 70.6C204 73.1 201.2 75.1 199.1 75.1C197.2 75.1 196.1 74 197.5 71.5L197.8 71C199.7 71.8 203.4 71.4 205.7 67.6L206.1 66.9C207.7 64.1 206.2 62.1 203.7 62.1C201.3 62.1 199.3 63.4 198 65.5L195.1 70.5L194.9 70.7C192.7 73.2 190.6 75.2 189.3 75.2C188.6 75.2 188.3 74.7 188.9 73.6L193.3 66.1C194.6 63.8 193.4 62.2 191.7 62.2C190.4 62.2 189 62.9 187.5 64.5L192.3 56.2H189.3L180.9 70.6L180.7 70.8C178.5 73.3 176.4 75.3 175.1 75.3C174.4 75.3 174.1 74.8 174.8 73.7L181.3 62.5H183.8L184.7 61.1H182.2L185 56.2L181.8 56.1ZM203.1 64.3C204.1 64.2 204.6 65.2 203.6 66.9L203.2 67.6C201.8 70 199.8 70 198.7 69.6L200.6 66.2C201.3 65 202.3 64.4 203.1 64.3ZM247.4 58.9C245.7 60.4 245.5 62.1 246.6 63.5L246.9 63.8C245.6 65.7 243.8 68.2 241.8 70.5L241.6 70.7C240.2 72.2 238.6 72.9 237 72.9L239.8 68.1C241.6 65 239.9 62 237.1 62C234.8 62 233 62.9 231.2 65.9L229.7 68.5L228.5 70.6L228.3 70.8C225.8 73.6 223.7 75.5 221.3 76.5L228.1 65.1H226.3C226.3 63.9 225 62.2 223.1 62.2C221.5 62.2 219.2 63.5 217.9 65.6L213.7 72.8C212.4 75 213.3 77 215.8 77C216.6 77 217.7 76.6 218.7 76L217.9 77.4C213.8 78.6 211.3 80.3 211.3 82.5C211.3 85.4 215.7 86 217.9 82.3L220.2 78.4C222.6 77.7 225 76.3 227.4 73.9C227.4 77.7 232.7 78.5 236 74.4H236.7C238.5 74.4 241.3 73.3 242.9 71.5C244.3 69.8 245.5 68.3 247.9 65.1L248.3 65.6C248.7 66.1 248.8 66.7 248.5 67.3L245.3 72.8C244 75 244.9 77 247.4 77C248.9 77 250.6 76 252.2 74.6C252.1 76 253.1 77 254.8 77C255.6 77 256.7 76.6 257.7 76L256.9 77.4C252.8 78.6 250.3 80.3 250.3 82.5C250.3 85.4 254.7 86 256.9 82.3L259.2 78.4C261.7 77.6 264.1 76.2 266.6 73.8C266.7 75.7 268.3 77 270.7 77C273.2 77 275.6 75.6 277.7 73.8C277.6 77.7 283 78.5 286.3 74.4H287C287.9 74.4 289.2 74.1 290.4 73.5C289.6 75.6 290.3 77 292.1 77C293.8 77 295.6 75.5 297.1 74.1C296.8 75.7 297.8 77 299.7 77C302.2 77 305.1 74.4 307.6 71.5C309.3 69.5 310.8 67.5 311.9 66.1C310.7 69.2 311.3 74.8 308.5 74.8C307.5 74.8 307.1 73.7 307.1 73.7L305.2 74.7C305.2 74.7 305.8 77.1 308.5 77.1C308.8 77.1 309.1 77.1 309.3 77H309.4C312.5 76.6 315.5 74.2 317.8 71.6C317.6 71.1 317.1 70.7 316.7 70.6L316.5 70.8C315.4 72 314.2 73.1 312.9 74C313.9 71.2 313.7 66.8 315.5 63L313.2 61.8C312 63.5 309.2 67.4 306.5 70.5L306.3 70.7C304.1 73.2 302 75.2 300.7 75.2C300 75.2 299.7 74.7 300.4 73.6L306.8 62.4H303.8L298.4 71.7C296.1 73.8 294.3 74.9 293.8 74.7C293 74.4 293.8 73.3 294.2 72.6L300.1 62.4H297.1L292.4 70.5L292.2 70.7C290.8 72.2 289.2 72.9 287.6 72.9L290.4 68.1C292.2 65 290.5 62 287.7 62C285.4 62 283.6 62.9 281.8 65.9L280.3 68.5L279.1 70.6L278.9 70.8C276.7 73.3 273.9 75.3 271.8 75.3C269.9 75.3 268.8 74.2 270.2 71.7L270.5 71.2C272.4 72 276.1 71.6 278.4 67.8L278.8 67.1C280.4 64.3 278.9 62.3 276.4 62.3C274 62.3 272 63.6 270.7 65.7L267.8 70.7L267.6 70.9C265.1 73.7 263 75.6 260.6 76.6L267.4 65.2H265.6C265.6 64 264.3 62.3 262.4 62.3C260.8 62.3 258.5 63.6 257.2 65.7L254.3 70.6L254.1 70.8C251.9 73.3 249.8 75.3 248.5 75.3C247.8 75.3 247.5 74.8 248.2 73.7L251.2 68.5C252.2 66.7 251.8 65.6 250.8 64.5L249.1 62.5C248.7 62 248.7 61.4 249.3 60.8L247.4 58.9ZM237.1 63.9C238.1 64 238.6 65.2 237.5 66.9L235.3 70.6H235.2C234.2 70.6 233.4 71.4 233.4 72.4C233.4 72.8 233.5 73.1 233.7 73.4V73.5C232.3 75.9 228.8 75.5 230.6 72.4L232.9 68.5L234.4 66.1C235.3 64.5 236.3 63.9 237.1 63.9ZM287.3 63.9C288.3 64 288.8 65.2 287.7 66.9L285.5 70.6H285.4C284.4 70.6 283.6 71.4 283.6 72.4C283.6 72.8 283.7 73.1 283.9 73.4V73.5C282.5 75.9 279 75.5 280.8 72.4L283.1 68.5L284.6 66.1C285.4 64.5 286.5 63.9 287.3 63.9ZM275.6 64.3C276.6 64.2 277.1 65.2 276.1 66.9L275.7 67.6C274.2 70 272.3 70 271.2 69.6L273.1 66.2C273.8 65 274.8 64.4 275.6 64.3ZM223.2 64.5C224.2 64.5 224.9 65.4 224 66.9L221.7 70.9C219.9 73.8 218 75.2 216.8 75.2C216.1 75.2 215.8 74.7 216.5 73.6L220.7 66.3C221.4 65.1 222.4 64.5 223.2 64.5ZM262.1 64.5C263.1 64.5 263.8 65.4 262.9 66.9L260.6 70.9C258.8 73.8 256.9 75.2 255.7 75.2C255 75.2 254.7 74.7 255.4 73.6L259.6 66.3C260.3 65.1 261.3 64.5 262.1 64.5ZM216.8 79.4L215.4 81.8C214.8 82.9 213.7 82.7 213.7 81.9C213.7 81.2 214.5 80.3 216.8 79.4ZM255.7 79.4L254.3 81.8C253.7 82.9 252.6 82.7 252.6 81.9C252.7 81.2 253.4 80.3 255.7 79.4ZM101 67.8H129.9V69.7H101V67.8ZM328.1 67.8H357V69.7H328.1V67.8Z"
           fill="#766458" />
@@ -46,12 +47,12 @@
           fill="white" />
       </svg>
     </div>
-    <section>
-      <h1>
+    <section class="reason">
+      <h1 class="reason-main-title">
         Седона — небольшой городок в Аризоне,
         заслуживающий большего!
       </h1>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <p class="reason-main-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
       <ol class="reason-list">
         <li class="reason-item">
           <article class="reason-card">
@@ -67,41 +68,41 @@
                 <p class="reason-sub-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
               <li class="reason-sub-item">
-                <h2 class="reason-title">Еда</h2>
-                <p class="reason-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                <h2 class="reason-sub-title">Еда</h2>
+                <p class="reason-sub-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
               <li class="reason-sub-item">
-                <h2 class="reason-title">Сувениры</h2>
-                <p class="reason-text">Не только китайского, но и настоящего местного производства!</p>
+                <h2 class="reason-sub-title">Сувениры</h2>
+                <p class="reason-sub-text">Не только китайского, но и настоящего местного производства!</p>
               </li>
             </ul>
           </article>
         </li>
-        <li>
+        <li class="reason-item">
           <article class="reason-card">
             <div class="reason-img-wrapper">
-              <img src="images/photo-2.jpg" width="800" height="384" alt="Там есть мост дьявола">
-            </div>div>
+              <img class="reason-img" src="images/photo-2.jpg" width="800" height="384" alt="Там есть мост дьявола">
+            </div>
             <h2 class="reason-title">Там есть мост дьявола</h2>
             <p class="reason-text">— №2 —</p>
             <p class="reason-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </article>
         </li>
-        <li>
+        <li class="reason-item">
           <article class="reason-card">
             <h2 class="reason-title">Небольшая площадь</h2>
             <p class="reason-text">— №3 —</p>
             <p class="reason-text">Все достопримечательности находятся очень близко</p>
           </article>
         </li>
-        <li>
+        <li class="reason-item">
           <article class="reason-card">
             <h2 class="reason-title">Красивая дорога</h2>
             <p class="reason-text">— №4 —</p>
             <p class="reason-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </article>
         </li>
-        <li>
+        <li class="reason-item">
           <article class="reason-card">
             <h2 class="reason-title">Мало туристов</h2>
             <p class="reason-text">— №5 —</p>
@@ -112,43 +113,45 @@
     </section>
     <section class="question-block">
       <h2 class="question-block-title">Заинтересовались?</h2>
-      <p class="question-block-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+      <p class="question-block-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+        Седоне
       </p>
       <button type="button">Поиск гостиницы в Седоне</button>
     </section>
 
     <section class="subscribe-block">
-
       <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!
       </p>
-      <form method="post" action="https://echo.htmlacademy.ru/">
-        <input type="email" placeholder="Ваш e-mail" name="email">
-        <button type="submit">Подписаться</button>
+      <form class="subscribe-form" method="post" action="https://echo.htmlacademy.ru/">
+        <input class="subscribe-email" type="email" placeholder="Ваш e-mail" name="email">
+        <button class="subscribe-email-button" type="submit">Подписаться</button>
       </form>
     </section>
   </main>
 
-  <footer>
-    <ul>
-      <li>
-        <a href="https://twitter.com/htmlacademy_ru" target="_blank">
+  <footer class="footer">
+    <ul class="socials-list">
+      <li class="social-item">
+        <a class="social-link" href="https://twitter.com/htmlacademy_ru" target="_blank">
           Twitter
         </a>
       </li>
-      <li>
-        <a href="https://www.facebook.com/htmlacademy" target="_blank">
+      <li class="social-item">
+        <a class="social-link" href="https://www.facebook.com/htmlacademy" target="_blank">
           Facebook
         </a>
       </li>
-      <li>
-        <a href="https://www.youtube.com/c/HTMLAcademyRUS" target="_blank">
+      <li class="social-item">
+        <a class="social-link" href="https://www.youtube.com/c/HTMLAcademyRUS" target="_blank">
           Youtube
         </a>
       </li>
     </ul>
-    <a href="tel:+78128121212"> +7 (812) 812-12-12 </a>
-    <a href="https://htmlacademy.ru" target="_blank"><img src="" alt="HTML Academy"></a>
+    <a class="telephone-link" href="tel:+78128121212"> +7 (812) 812-12-12 </a>
+    <a class="copyright-link" href="https://htmlacademy.ru" target="_blank">
+      <!-- svg icon alt="HTML Academy" -->
+    </a>
   </footer>
 </body>
 
