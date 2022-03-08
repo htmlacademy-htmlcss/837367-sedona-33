@@ -127,7 +127,6 @@ img {
   background-color: #FFFFFF;
 }
 
-
 .reason-text {
   line-height: 21px;
 }
@@ -140,7 +139,6 @@ img {
 
 .question-block {
   text-align: center;
-
 }
 
 .question-block-title {
@@ -207,9 +205,8 @@ img {
   color: #FFFFFF;
 }
 
-
-
 /* style for catalog.html */
+
 .catalog {
   width: 1200px;
   min-height: 408px;
@@ -270,7 +267,6 @@ img {
   height: 48px;
   width: 287px;
   line-height: 23px;
-
 }
 
 .filter-sort-button {
@@ -348,7 +344,6 @@ img {
 .pagination-button.current {
   background-color: #F2F2F2;
   color: #000000;
-
 }
 
 .page-count-label {
@@ -360,6 +355,4 @@ img {
   width: 160px;
   line-height: 23px;
   background-color: transparent;
-
-
 }
