@@ -4,134 +4,142 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <header>
-    <a>
-      <img src="" alt="City of Sedona">
+<body class="body">
+  <header class="main-header">
+    <a class="logo-link">
+      <!-- svg icon class="header-logo" alt="City of Sedona" -->
     </a>
-    <nav>
-      <ul>
-        <li>
-          <a>Главная</a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="main-page-link">Главная</a>
         </li>
-        <li>
-          <a href="#">О Седоне</a>
+        <li class="navigation-item">
+          <a class="main-text" href="#">О Седоне</a>
         </li>
-        <li>
+        <li class="navigation-item">
           <a href="catalog.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
 
-    <div>
-      <button type="button">Найти</button>
-      <button type="button">Избранное</button>
-      <button type="button">Хочу сюда!</button>
+    <div class="actions">
+      <button class="actions-button" type="button">Найти</button>
+      <button class="actions-button" type="button">Избранное</button>
+      <button class="actions-button" type="button">Хочу сюда!</button>
     </div>
   </header>
-  <main>
-    <div>
-      <img src="" alt="Wellcome to Sedona">
+  <main class="main-content">
+    <div class="banner">
     </div>
-    <section>
-      <h1>
+    <section class="reason">
+      <h1 class="reason-main-title">
         Седона — небольшой городок в Аризоне,
         заслуживающий большего!
       </h1>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-      <ol>
-        <li>
-          <article>
-            <img src="" alt="Настоящий городок">
-            <h2>Настоящий городок</h2>
-            <p>— №1 —</p>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <ul>
-              <li>
-                <h2>Жильё</h2>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <p class="reason-main-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      <ol class="reason-list">
+        <li class="reason-item">
+          <article class="reason-card">
+            <div class="reason-img-wrapper">
+              <img class="reason-img" src="images/reason-photo-1.jpg" width="800" height="384" alt="Настоящий городок">
+            </div>
+            <h2 class="reason-title">Настоящий городок</h2>
+            <p class="reason-text">— №1 —</p>
+            <p class="reason-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <ul class="reason-sub-list">
+              <li class="reason-sub-item">
+                <h2 class="reason-sub-title">Жильё</h2>
+                <p class="reason-sub-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-              <li>
-                <h2>Еда</h2>
-                <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <li class="reason-sub-item">
+                <h2 class="reason-sub-title">Еда</h2>
+                <p class="reason-sub-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li>
-                <h2>Сувениры</h2>
-                <p>Не только китайского, но и настоящего местного производства!</p>
+              <li class="reason-sub-item">
+                <h2 class="reason-sub-title">Сувениры</h2>
+                <p class="reason-sub-text">Не только китайского, но и настоящего местного производства!</p>
               </li>
             </ul>
           </article>
         </li>
-        <li>
-          <article>
-            <img src="" alt="Там есть мост дьявола">
-            <h2>Там есть мост дьявола</h2>
-            <p>— №2 —</p>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        <li class="reason-item">
+          <article class="reason-card">
+            <div class="reason-img-wrapper">
+              <img class="reason-img" src="images/reason-photo-2.jpg" width="800" height="384" alt="Там есть мост дьявола">
+            </div>
+            <h2 class="reason-title">Там есть мост дьявола</h2>
+            <p class="reason-text">— №2 —</p>
+            <p class="reason-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </article>
         </li>
-        <li>
-          <article>
-            <h2>Небольшая площадь</h2>
-            <p>— №3 —</p>
-            <p>Все достопримечательности находятся очень близко</p>
+        <li class="reason-item">
+          <article class="reason-card">
+            <h2 class="reason-title">Небольшая площадь</h2>
+            <p class="reason-text">— №3 —</p>
+            <p class="reason-text">Все достопримечательности находятся очень близко</p>
           </article>
         </li>
-        <li>
-          <article>
-            <h2>Красивая дорога</h2>
-            <p>— №4 —</p>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        <li class="reason-item">
+          <article class="reason-card">
+            <h2 class="reason-title">Красивая дорога</h2>
+            <p class="reason-text">— №4 —</p>
+            <p class="reason-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </article>
         </li>
-        <li>
-          <article>
-            <h2>Мало туристов</h2>
-            <p>— №5 —</p>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
+        <li class="reason-item">
+          <article class="reason-card">
+            <h2 class="reason-title">Мало туристов</h2>
+            <p class="reason-text">— №5 —</p>
+            <p class="reason-text">Большинство едет в Гранд Каньон и толпится там</p>
           </article>
         </li>
       </ol>
     </section>
-    <section>
-      <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+    <section class="question-block">
+      <h2 class="question-block-title">Заинтересовались?</h2>
+      <p class="question-block-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+        Седоне
       </p>
       <button type="button">Поиск гостиницы в Седоне</button>
     </section>
-    <section>
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама, честное бойскаутское!
+
+    <section class="subscribe-block">
+      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+      <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!
       </p>
-      <form method="post" action="https://echo.htmlacademy.ru/">
-        <input type="email" placeholder="Ваш e-mail" name="email">
-        <button type="submit">Подписаться</button>
+      <form class="subscribe-form" method="post" action="https://echo.htmlacademy.ru/">
+        <input class="subscribe-email" type="email" placeholder="Ваш e-mail" name="email">
+        <button class="subscribe-email-button" type="submit">Подписаться</button>
       </form>
     </section>
   </main>
 
-  <footer>
-    <ul>
-      <li>
-        <a href="https://twitter.com/htmlacademy_ru" target="_blank">
+  <footer class="footer">
+    <ul class="socials-list">
+      <li class="social-item">
+        <a class="social-link" href="https://twitter.com/htmlacademy_ru" target="_blank">
           Twitter
         </a>
       </li>
-      <li>
-        <a href="https://www.facebook.com/htmlacademy" target="_blank">
+      <li class="social-item">
+        <a class="social-link" href="https://www.facebook.com/htmlacademy" target="_blank">
           Facebook
         </a>
       </li>
-      <li>
-        <a href="https://www.youtube.com/c/HTMLAcademyRUS" target="_blank">
+      <li class="social-item">
+        <a class="social-link" href="https://www.youtube.com/c/HTMLAcademyRUS" target="_blank">
           Youtube
         </a>
       </li>
     </ul>
-    <a href="tel:+78128121212"> +7 (812) 812-12-12 </a>
-    <a href="https://htmlacademy.ru" target="_blank"><img src="" alt="HTML Academy"></a>
+    <a class="telephone-link" href="tel:+78128121212"> +7 (812) 812-12-12 </a>
+    <a class="copyright-link" href="https://htmlacademy.ru" target="_blank">
+      <!-- svg icon alt="HTML Academy" -->
+    </a>
   </footer>
 </body>
 

@@ -1,0 +1,19 @@
+/* style for index.html */
+.banner {
+  width: 1200px;
+  height: 485px;
+  background-image: url('images/bg-banner.jpg');
+}
+
+.subscribe-block {
+  width: 1200px;
+  height: 411px;
+  background-image: url('images/bg-subscribe.jpg');
+}
+
+/* style for catalog.html */
+.catalog {
+  width: 1200px;
+  height: 408px;
+  background-image: url('images/bg-catalog.jpg');
+}
