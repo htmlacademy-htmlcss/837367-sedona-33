@@ -45,13 +45,24 @@ img {
 .main-header {
   display: flex;
   align-items: center;
+  padding-left: 72px;
+  padding-right: 72px;
+
+}
+
+.logo-link {
+  margin-right: 47px;
+}
+
+.navigation {
+  margin-right: auto;
 }
 
 .navigation-list {
   display: flex;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .navigation-link {
@@ -59,6 +70,23 @@ img {
   font-weight: 700;
   text-decoration: none;
   color: #000000;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.actions {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+.actions-item:not(:last-child) {
+  margin-right: 23px;
+
 }
 
 .actions-iconic-button {
@@ -313,37 +341,97 @@ img {
 
 .catalog {
   width: 1200px;
-  min-height: 408px;
+  height: 408px;
   background-image: url('images/bg-catalog.jpg');
   color: #FFFFFF;
   background-color: #89abb7;
+  padding: 35px 72px 86px 72px;
 }
 
 .catalog-title {
+  display: block;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+}
+
+.breadcrumb-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 45px;
+  padding: 0;
+}
+
+.breadcrumb-item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.filter-catalog {
+  display: flex;
+}
+
+.filter-catalog-fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+.filter-catalog-fieldset.infrastructure {
+  margin-right: 67px;
+}
+
+.filter-catalog-fieldset.housing-type {
+  margin-right: 167px;
+}
+
+.filter-catalog-fieldset.cost-range {
+  margin-right: auto;
 }
 
 .filter-catalog-legend {
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
+  margin-bottom: 30px;
 }
 
 .filter-catalog-label {
+  display: flex;
   line-height: 23px;
 }
+
+.filter-catalog-label:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.custom-checkbox {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+
 
 .filter-input-number {
   background-color: transparent;
   color: inherit;
 }
 
+.catalog-button-list {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+}
+
+.button-item {}
+
 .filter-catalog-button {
   width: 160px;
   height: 48px;
   font-family: inherit;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .filter-catalog-button.submit {
@@ -352,6 +440,7 @@ img {
   font-weight: 700;
   background-color: #83B3D3;
   text-transform: uppercase;
+
 }
 
 .filter-catalog-button.reset {
